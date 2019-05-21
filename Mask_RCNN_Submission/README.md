@@ -3,8 +3,8 @@ Add the test images dataset to this path. We assume the path name is "track2.1_t
 Then run "python test_convert_xml.py -eval_path track2.1_test_sample -pre_path results" in terminal. You will get corresponding .xml files generated in folder "results". Those .xml files can be used to run mAP_test codes and get the final mAP results.
 
 # Important Packages List
-python 3.6.8/
-tensorflow 1.12.0
+python 3.6.8  
+tensorflow 1.12.0  
 tensorflow-gpu 1.12.0
 tensorflow-base 1.12.0
 scikit-image 0.14.1
