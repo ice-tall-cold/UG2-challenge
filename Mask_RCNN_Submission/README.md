@@ -2,6 +2,8 @@
 Add the test images dataset to this path. We assume the path name is "track2.1_test_sample". 
 Then run "python test_convert_xml.py -eval_path track2.1_test_sample -pre_path results" in terminal. You will get corresponding .xml files generated in folder "results". Those .xml files can be used to run mAP_test codes and get the final mAP results.
 
+If you want to run the test code in pycharm not in terminal, just run test_convert_xml_pycharm.py. You need to manually change the path name in the code. The root_paht is the path where stored test images dataset. You can change the root_path to the folder name of test images dataset. The result .xml files are still generated in "results" folder.
+
 # Important Packages List
 python 3.6.8  
 tensorflow 1.12.0  
